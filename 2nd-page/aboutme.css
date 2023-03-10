@@ -1,0 +1,83 @@
+/* Common CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.menu_box {
+    width: 300px;
+    height: 421px;
+    margin-top: -3px;
+    background: red;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu_box p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.menu_box p a {
+    color: black;
+    font-size: 23px;
+}
+
+.menu_box p a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    border: 5px solid red;
+    background: red;
+    border-radius: 30px;
+}
+
+nav ul {
+    padding: 2px;
+}
+
+nav ul li {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
